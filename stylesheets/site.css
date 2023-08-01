@@ -95,8 +95,8 @@ button.register  {
 
 dl {
   border-top: 1px solid #eee;
-  margin-top: 1rem;
-  padding-top: 1rem;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
 }
 
 
@@ -108,11 +108,12 @@ dt span {
   background: #eee;
   border-radius: .125rem;
   display: inline-block;
+  margin-right: .5rem;
   padding: 0 .5rem;
 }
 
 dd {
   border-bottom: 1px solid #eee;
-  margin: 0 0 1rem 0;
-  padding-bottom: 1rem;
+  margin: 0 0 1.5rem 0;
+  padding-bottom: 1.5rem;
 }
