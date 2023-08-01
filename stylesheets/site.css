@@ -16,7 +16,7 @@ a:focus, a:hover {
 }
 
 .container {
-  max-width: 30em;
+  max-width: 36em;
   margin: 2em auto;
   padding: 3em;
   background: white;
@@ -36,7 +36,8 @@ h1 {
 }
 
 h1, h2 {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+}
 
 .header {
   margin-bottom: 3rem;
@@ -47,7 +48,9 @@ h1, h2, .register {
 
 h2 {
   font-weight: bold;
-  clear: both; }
+  clear: both;
+  margin-top: 3rem;
+}
 
 ul {
   list-style: none;
@@ -78,12 +81,38 @@ img {
   margin-top: 3rem;
 }
 
-.register a {
+button.register  {
+  border: none;
   font-weight: bold;
+  font-size: 1.25rem;
   background: #df6950;
-  padding: 1em;
+  padding: 1rem;
   text-align: center;
   border-radius: .25em;
   margin-top: 2rem;
   color: white;
+}
+
+dl {
+  border-top: 1px solid #eee;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+
+dt {
+  font-weight: bold;
+}
+
+dt span {
+  background: #eee;
+  border-radius: .125rem;
+  display: inline-block;
+  padding: 0 .5rem;
+}
+
+dd {
+  border-bottom: 1px solid #eee;
+  margin: 0 0 1rem 0;
+  padding-bottom: 1rem;
 }
